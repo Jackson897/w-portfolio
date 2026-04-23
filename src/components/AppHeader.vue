@@ -50,7 +50,7 @@ header {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 0.5rem 1rem;
+  padding-right: 1rem;
   box-sizing: border-box;
 }
 
@@ -87,7 +87,7 @@ header {
   text-decoration: none;
   color: white;
   border: 1px solid white;
-  padding: 1em 1.2em;
+  padding: 0.3em 0.75em;
   border-radius: 5px;
   transition: all 0.3s ease;
   cursor: pointer;

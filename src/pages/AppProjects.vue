@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import AppHeader from '@/components/AppHeader.vue';
-import AppWorking from '@/components/AppWorking.vue';
-import AppProject from '@/components/AppProject.vue';
+import AppHeader from '@/components/AppHeader.vue'
+import AppWorking from '@/components/AppWorking.vue'
+import AppProject from '@/components/AppProject.vue'
 </script>
 
 <template>
@@ -26,9 +26,23 @@ import AppProject from '@/components/AppProject.vue';
 </template>
 
 <style scoped>
-.list{
+.list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-top: 1.3rem;
+}
+p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+div {
+  text-align: center;
+  margin: 0.5rem;
 }
 </style>
