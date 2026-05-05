@@ -5,24 +5,11 @@ import AppWorking from '@/components/AppWorking.vue'
 
 <template>
   <AppHeader />
-  <div>
-    <h1>About</h1>
-    <p>Sono Wang Zhen Jie, studente di informatica presso l'Università di Pisa.</p>
+  <div class="text-center m-2">
+    <h1 class="text-3xl mt-5 mb-6">About</h1>
+    <p class="text-base mb-6">
+      Sono Wang Zhen Jie, studente di informatica presso l'Università di Pisa.
+    </p>
   </div>
   <AppWorking />
 </template>
-
-<style scoped>
-h1 {
-  font-size: 1.8rem;
-  margin-top: 1.3rem;
-}
-p {
-  font-size: 1rem;
-  margin-bottom: 1.5rem;
-}
-div {
-  text-align: center;
-  margin: 0.5rem;
-}
-</style>

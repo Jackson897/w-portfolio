@@ -1,13 +1,5 @@
 <script setup lang="ts"></script>
 
-<template><h1>Work in progress ...</h1></template>
-
-<style scoped>
-h1{
-  color: grey;
-  font-size: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-</style>
+<template>
+  <h1 class="text-gray-500 text-5xl flex justify-center items-center">Work in progress ...</h1>
+</template>

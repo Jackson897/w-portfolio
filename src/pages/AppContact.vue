@@ -5,42 +5,32 @@ import AppWorking from '@/components/AppWorking.vue'
 
 <template>
   <AppHeader />
-  <div>
-    <h1>Contact</h1>
-    <p>
+  <div class="text-center m-2">
+    <h1 class="text-3xl mt-5">Contact</h1>
+    <p class="text-base mb-6">
       Per contattarmi, puoi inviarmi un'email a
-      <a href="mailto:wangzhenjie1314@gmail.com">wangzhenjie1314@gmail.com</a>
+      <a href="mailto:wangzhenjie1314@gmail.com" class="text-blue-600 hover:text-blue-800"
+        >wangzhenjie1314@gmail.com</a
+      >
     </p>
-    <p>In alternativa, puoi seguirmi sui social media:</p>
-    <ul>
-      <li><a href="https://github.com/Jackson897">GitHub</a></li>
-      <li><a href="https://www.facebook.com/profile.php?id=61574606739117">Facebook</a></li>
-      <li><a href="https://www.instagram.com/wang031119/">Instagram</a></li>
+    <p class="text-base mb-6">In alternativa, puoi seguirmi sui social media:</p>
+    <ul class="flex justify-center gap-5 list-none">
+      <li>
+        <a href="https://github.com/Jackson897" class="text-blue-600 hover:text-blue-800">GitHub</a>
+      </li>
+      <li>
+        <a
+          href="https://www.facebook.com/profile.php?id=61574606739117"
+          class="text-blue-600 hover:text-blue-800"
+          >Facebook</a
+        >
+      </li>
+      <li>
+        <a href="https://www.instagram.com/wang031119/" class="text-blue-600 hover:text-blue-800"
+          >Instagram</a
+        >
+      </li>
     </ul>
   </div>
   <AppWorking />
 </template>
-
-<style scoped>
-li {
-  list-style: none;
-}
-
-ul {
-  display: flex;
-  gap: 20px;
-}
-
-h1 {
-  font-size: 1.8rem;
-  margin-top: 1.3rem;
-}
-p {
-  font-size: 1rem;
-  margin-bottom: 1.5rem;
-}
-div {
-  text-align: center;
-  margin: 0.5rem;
-}
-</style>

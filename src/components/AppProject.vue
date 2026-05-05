@@ -11,13 +11,9 @@ const isExternal = computed(() => props.link.startsWith('http'))
 </script>
 
 <template>
-  <div class="project">
-    <h2>
-      <router-link
-        v-if="!isExternal"
-        :to="props.link"
-        class="project-link"
-      >
+  <div class="bg-gray-100 p-5 rounded-lg">
+    <h2 class="text-xl mb-2">
+      <router-link v-if="!isExternal" :to="props.link" class="text-blue-600 hover:text-blue-800">
         {{ props.title }}
       </router-link>
       <a
@@ -25,20 +21,11 @@ const isExternal = computed(() => props.link.startsWith('http'))
         :href="props.link"
         target="_blank"
         rel="noopener noreferrer"
-        class="project-link"
+        class="text-blue-600 hover:text-blue-800"
       >
         {{ props.title }}
       </a>
     </h2>
-    <p>{{ props.description }}</p>
+    <p class="text-gray-700">{{ props.description }}</p>
   </div>
-
 </template>
-
-<style scoped>
-.project{
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-}
-</style>
